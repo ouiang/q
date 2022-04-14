@@ -1,30 +1,25 @@
 <svg width="1180px" height="403px" viewBox="0 0 1180 403" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-      <linearGradient x1="0" x2="1" id="Gradient">
+      <linearGradient x1="0" x2="1" id="G" gradientTransform="rotate(45)">
         <stop offset="0" stop-color="#E3C402"/>
+        <stop offset="0.3" stop-color="#E3C402"/>
+        <stop offset="0.7" stop-color="#F48C00"/>
         <stop offset="1" stop-color="#F48C00"/>
       </linearGradient>
-      <linearGradient id="bg" href="#Gradient" gradientTransform="translate(0.20 0.20) rotate(45) scale(0.7)"></linearGradient>
       <mask id="p1">
         <circle fill="white" cx="0" cy="0" r="500" ></circle>
         <circle fill="black" cx="0" cy="0" r="353.553390593273762"></circle>
         <path stroke="black" fill="black" d="M 203.553390593273762 203.553390593273762 A 150 150 1 0 1 503.553390593273762 503.553390593273762 Z" />
         <rect fill="white" x="0" y="353.553390593273762" width="353.553390593273762" height="146.446609406726238"></rect>
+        <circle fill="white" cx="353.553390593273762" cy="353.553390593273762" r="146.446609406726238"></circle>
       </mask>
     </defs>
-
     <g transform="translate(210, 210) scale(0.38)">
       <g mask="url(#p1)">
-        <rect x="-500" y="-500" width="1000" height="1000" fill="url(#bg)"></rect>
-      </g>
-      <g mask="url(#p1)">
-        <rect x="-500" y="-500" width="1000" height="500" fill="#E3C402" transform="rotate(45)"></rect>
-      </g>
-      <g>
-        <circle fill="#F48C00" cx="353.553390593273762" cy="353.553390593273762" r="146.446609406726238"></circle>
+        <rect x="-500" y="-500" width="1000" height="1000" fill="url(#G)"></rect>
+        <rect x="-500" y="-500" width="1000" height="500" fill="#E3C402" transform="rotate(30) translate(0, -36)"></rect>
       </g>
     </g>
-
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="歐陽毓謙" transform="translate(480.400000, 197.440000)" fill="#E3C402" fill-rule="nonzero">
             <path d="M124.74,48.06 L140.4,48.06 C139.14,59.4 137.34,71.1 135.72,79.02 L148.68,82.98 C152.1,70.74 155.34,51.3 157.5,34.56 L146.52,31.68 L144,32.4 L141.66,32.4 L141.66,32.58 L106.74,32.58 C108.9,23.04 110.7,12.96 112.14,2.7 L95.58,0.18 C92.34,28.44 86.04,55.98 74.52,73.08 C78.48,75.24 85.68,80.28 88.56,82.98 C94.32,73.44 99,61.56 102.96,48.06 L108.72,48.06 L108.72,70.02 C108.72,83.34 105.3,117 83.88,140.94 L83.88,133.56 L14.22,133.56 L14.22,22.86 L81.9,22.86 L81.9,8.64 L1.13686838e-13,8.64 L1.13686838e-13,160.38 L14.22,160.38 L14.22,147.96 L76.68,147.96 C75.06,149.4 73.44,150.66 71.64,151.92 C74.52,154.8 79.2,161.82 80.82,165.42 C105.48,147.6 115.02,116.28 116.64,101.34 C118.44,115.74 126.9,148.32 149.04,165.42 C151.2,161.46 156.06,154.62 159.12,151.2 C129.78,128.52 124.56,85.14 124.74,70.02 L124.74,48.06 Z M40.5,42.66 L59.76,42.66 L59.76,61.92 L40.5,61.92 L40.5,42.66 Z M27.9,72.36 L72.72,72.36 L72.72,32.22 L27.9,32.22 L27.9,72.36 Z M61.74,90.54 L71.82,90.54 L71.82,112.86 L61.74,112.86 L61.74,90.54 Z M52.92,123.3 L81.18,123.3 L81.18,80.1 L52.92,80.1 L52.92,123.3 Z M28.8,90.54 L37.98,90.54 L37.98,112.86 L28.8,112.86 L28.8,90.54 Z M20.16,123.3 L46.98,123.3 L46.98,80.1 L20.16,80.1 L20.16,123.3 Z"></path>
