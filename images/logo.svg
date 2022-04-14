@@ -1,10 +1,10 @@
 <svg width="1024px" height="1024px" viewBox="-512 -512 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <defs>
       <linearGradient x1="0" x2="1" id="G" gradientTransform="rotate(45)">
-        <stop offset="0" stop-color="#E3C402"/>
-        <stop offset="0.3" stop-color="#E3C402"/>
-        <stop offset="0.7" stop-color="#F48C00"/>
-        <stop offset="1" stop-color="#F48C00"/>
+        <stop offset="0" stop-color="#FFCB04"/>
+        <stop offset="0.3" stop-color="#FFCB04"/>
+        <stop offset="0.7" stop-color="#FE7212"/>
+        <stop offset="1" stop-color="#FE7212"/>
       </linearGradient>
       <mask id="p1">
         <circle fill="white" cx="0" cy="0" r="500" ></circle>
@@ -16,6 +16,6 @@
     </defs>
     <g mask="url(#p1)">
       <rect x="-500" y="-500" width="1000" height="1000" fill="url(#G)"></rect>
-      <rect x="-500" y="-500" width="1000" height="500" fill="#E3C402" transform="rotate(30) translate(0, -36)"></rect>
+      <rect x="-500" y="-500" width="1000" height="500" fill="#FFCB04" transform="rotate(30) translate(0, -36)"></rect>
     </g>
 </svg>
