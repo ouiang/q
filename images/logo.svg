@@ -2,8 +2,8 @@
     <defs>
       <linearGradient x1="0" x2="1" id="G" gradientTransform="rotate(45)">
         <stop offset="0" stop-color="#FFC600"/>
-        <stop offset="0.3" stop-color="#FFC600"/>
-        <stop offset="0.7" stop-color="#F55555"/>
+        <stop offset="0.35" stop-color="#FFC600"/>
+        <stop offset="0.8" stop-color="#F55555"/>
         <stop offset="1" stop-color="#F55555"/>
       </linearGradient>
       <mask id="p1">
